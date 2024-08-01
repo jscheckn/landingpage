@@ -1,15 +1,17 @@
 *{
   font-family: "Roboto";
-
+  margin: 0;
 }
 
 .header{
-    display: flex;
+    color: #F0FAF8;
+    
     background-color: #1F2937;
     
 }
 .logo{
-    color: #F0FAF8;
+    padding: 20px;
+    
     font-weight: bolder;
 }
 a{
@@ -19,13 +21,31 @@ a{
     font-size: 1em
 }
 .nav-bar{
+    
      display: flex;
      align-items: center; 
-     justify-content: space-between;
+     width: 100%;
+     justify-content: space-between;   
 }
 ul{
+    padding: 20px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style-type: none;
+}
 
+.HeroText{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+}
+
+.button{
+    background-color: #3882F6;
+    color: #F0FAF8;
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
 }
