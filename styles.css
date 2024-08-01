@@ -1,0 +1,31 @@
+*{
+  font-family: "Roboto";
+
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    
+}
+.logo{
+    color: #F0FAF8;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: #F0FAF8;
+    font-weight: normal;
+    font-size: 1em
+}
+.nav-bar{
+     display: flex;
+     align-items: center; 
+     justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+
+}
